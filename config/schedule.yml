@@ -1,4 +1,4 @@
 currencies_fetcher:
-  cron: '*/30 * * * * *'
+  cron: '0 0 * * *'
   class: CurrencyFetchWorker
   queue: 'default'
